@@ -16,6 +16,7 @@
 }
 .stage-direction:hover{
     background-color: blue;
+    color: red;
 }
 .princepetro{
  color: blueviolet;
