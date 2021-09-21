@@ -58,3 +58,9 @@ table{
   tr:nth-child(even){
     background-color: rgb(234, 243, 247);
   }
+  .name:hover{
+    text-shadow: 2px 4px 3px rgb(77, 59, 143);
+    color: #a80f6e;
+    filter: blue(3px);
+    border: solid 2px rgb(15, 15, 15);
+}
