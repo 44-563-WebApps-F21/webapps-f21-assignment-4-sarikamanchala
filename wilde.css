@@ -33,3 +33,28 @@ color: cadetblue;
 .baronraff{
 color: chocolate;
 }
+
+table{
+    border: solid;
+    padding: 40px 40px 40px;
+    margin: 80px 80px;
+    width: 80%; 
+  }
+  th{
+    color:black;
+    border: 1px solid black;
+    padding: 5px 5px 5px;
+    text-align: left;
+    background-color:rgb(114, 134, 170);
+
+  }
+  td{
+    color: black;
+    padding: 3px 3px 3px;
+    border: 1px mixed black;
+    text-align: left;
+  }
+
+  tr:nth-child(even){
+    background-color: rgb(234, 243, 247);
+  }
