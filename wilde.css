@@ -37,7 +37,7 @@ color: chocolate;
 table{
     border: solid;
     padding: 40px 40px 40px;
-    margin: 80px 80px;
+    margin: 90px 90px;
     width: 80%; 
   }
   th{
@@ -64,3 +64,30 @@ table{
     filter: blue(3px);
     border: solid 2px rgb(15, 15, 15);
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(17, 17, 17);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
